@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react"
 
 export function useParallax(speed = 0.5) {
-  const elementRef = useRef<HTMLElement>(null)
+  const elementRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const element = elementRef.current
@@ -23,7 +23,7 @@ export function useParallax(speed = 0.5) {
 }
 
 export function useScrollOpacity() {
-  const elementRef = useRef<HTMLElement>(null)
+  const elementRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const element = elementRef.current
