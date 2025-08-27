@@ -21,7 +21,7 @@ export function HeroSection() {
       <div className="absolute inset-0">
         <div ref={parallaxRef} className="absolute inset-0 scale-110" style={{ willChange: "transform" }}>
           <img
-            src="/foto-gunung.jpg?height=1200&width=1920"
+            src="/macbrown.jpeg?height=1200&width=1920"
             alt="Featured Photography Work"
             className="h-full w-full object-cover object-center"
             loading="eager"
